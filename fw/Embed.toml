@@ -1,0 +1,14 @@
+[default.probe]
+protocol = "Swd"
+speed = 115200
+
+[default.flashing]
+enabled = true
+
+[default.general]
+chip = "STM32F407VGTx"
+
+[default.rtt]
+enabled = true
+show_timestamps = true
+timeout = 3000
